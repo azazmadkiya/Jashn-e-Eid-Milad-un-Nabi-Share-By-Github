@@ -1,8 +1,12 @@
 import { Track } from '../types';
 
+export const DEFAULT_PLAYLIST_ID = 'PLKM4SfonDHLM';
+export const DEFAULT_PLAYLIST_NAME = '12 Rabi-ul-Awwal Mehfil Playlist';
+
 export const TRACKS: Track[] = [
   {
     id: 'track-1',
+    youtubeId: 'A-K4-R1-29E',
     title: 'Mustafa Jaane Rahmat Pe Lakhon Salam',
     reciter: 'Salam-e-Raza (Kalam-e-Ala Hazrat)',
     year: '1998 Vintage Record',
@@ -12,6 +16,7 @@ export const TRACKS: Track[] = [
   },
   {
     id: 'track-2',
+    youtubeId: 'Vqfy4ScRXFQ',
     title: 'Ya Nabi Salam Alaika',
     reciter: 'Traditional Qasaid & Salam',
     year: 'Traditional Qiyam',
@@ -21,6 +26,7 @@ export const TRACKS: Track[] = [
   },
   {
     id: 'track-3',
+    youtubeId: 'N69098n9wGg',
     title: 'Faslon Ko Takalluf Hai Humse Agar',
     reciter: 'Qari Waheed Zafar Qasmi',
     year: 'Classic Broadcast',
@@ -30,6 +36,7 @@ export const TRACKS: Track[] = [
   },
   {
     id: 'track-4',
+    youtubeId: 'w5s2c5f9xG0',
     title: 'Zahe Muqaddar Huzoor-e-Haq Se',
     reciter: 'Qari Waheed Zafar Qasmi',
     year: '1995 Master Tape',
@@ -39,6 +46,7 @@ export const TRACKS: Track[] = [
   },
   {
     id: 'track-5',
+    youtubeId: 'G14nK6jYf8w',
     title: 'Jashn-E-Aamad-E-Rasool ﷺ',
     reciter: 'Owais Raza Qadri',
     year: 'Street Procession Mehfil',
@@ -48,6 +56,7 @@ export const TRACKS: Track[] = [
   },
   {
     id: 'track-6',
+    youtubeId: 'a18py61_F_w',
     title: 'Tajdar-e-Haram O Nigah-e-Karam',
     reciter: 'Sabri Brothers',
     year: 'Golden Era Heritage',
@@ -64,3 +73,4 @@ export const AUTHENTIC_PHRASES = [
   '12 Rabi-ul-Awwal Mubarak',
   'Rauza-e-Rasool ﷺ'
 ];
+
