@@ -81,7 +81,19 @@ export default function App() {
         <HijriDateWidget onInteract={handleInteract} />
 
         {/* Footer Credit Section */}
-        <footer className="mt-3 mb-10 text-center border-t border-amber-500/20 pt-2.5 w-full max-w-lg">
+        <footer className="mt-3 mb-10 text-center border-t border-amber-500/20 pt-3 pb-2 w-full max-w-lg flex flex-col items-center gap-2">
+          <a
+            href="https://islamic-book.morbi.store/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/80 hover:bg-emerald-900 border border-amber-500/40 hover:border-amber-400 text-amber-300 hover:text-amber-200 text-xs sm:text-sm font-medium tracking-wide shadow-md transition-all duration-200 group active:scale-95"
+          >
+            <span>👉</span>
+            <span className="text-amber-200/90 font-mono text-[11px] uppercase tracking-wider">Click Here:</span>
+            <span className="text-sm">📖</span>
+            <span className="font-serif font-bold">Islamic Book</span>
+            <span className="text-[10px] opacity-70 group-hover:translate-x-0.5 transition-transform">↗</span>
+          </a>
           <p className="text-xs font-serif tracking-widest text-amber-300/80 uppercase">
             Design By <span className="font-bold text-amber-200 hover:text-amber-100 transition-colors">Azazmadkiya</span>
           </p>
