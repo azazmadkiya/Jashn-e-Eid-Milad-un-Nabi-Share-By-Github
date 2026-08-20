@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Jashn-e-Eid Milad-un-Nabi Nostalgic Experience",
+  "description": "A deeply nostalgic, interactive celebration website for Jashn-e-Eid Milad-un-Nabi featuring Naat music player, glowing lanterns, floating rose petals, and authentic memories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
