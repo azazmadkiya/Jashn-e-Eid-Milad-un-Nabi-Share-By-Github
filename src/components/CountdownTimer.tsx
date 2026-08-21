@@ -6,8 +6,8 @@ interface CountdownTimerProps {
 }
 
 export const CountdownTimer: React.FC<CountdownTimerProps> = ({ onInteract }) => {
-  // Target date for 12 Rabi-ul-Awwal 1448 AH: August 25, 2026 00:00:00
-  const targetDate = new Date('2026-08-25T00:00:00');
+  // Target date for 12 Rabi-ul-Awwal 1448 AH: August 26, 2026 00:00:00
+  const targetDate = new Date('2026-08-26T00:00:00');
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -102,7 +102,7 @@ export const CountdownTimer: React.FC<CountdownTimerProps> = ({ onInteract }) =>
 
         <div className="mt-2 text-[10px] sm:text-[11px] font-mono text-emerald-300/90 flex items-center justify-center gap-1">
           <Calendar className="w-3 h-3 text-amber-400 shrink-0" />
-          <span>Target Date: 12 Rabi-ul-Awwal 1448 AH (Approx. 25 August 2026)</span>
+          <span>Target Date: 12 Rabi-ul-Awwal 1448 AH (Approx. 26 August 2026)</span>
         </div>
       </div>
     </div>
